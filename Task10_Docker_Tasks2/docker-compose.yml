@@ -1,0 +1,8 @@
+version: '3.8'
+ 
+services:
+  profile:
+    build: .
+    container_name: docker-profile
+    ports:
+      - "80:80"
